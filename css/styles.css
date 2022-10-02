@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto;
+}
+
+nav a, .logo {
+    font-weight: bold;  
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
+}
+
+a:hover, a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+
+.current {
+    color: rgba(33, 150, 243, 1);
+}
+
+.hero-section  {
+    background-color: rgba(47, 48, 58, 1);
+}
+.hero-section button {
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.hero-section button:hover, .hero-section button:focus {
+    background-color: rgba(28, 130, 213, 0.868);
+}
+.hero-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.features-section h3 {
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo span {
+    color: rgba(33, 150, 243, 1);
+}
+
+h2 {
+    color: rgba(33, 33, 33, 1);
+}
+h3 {
+    color: rgba(33, 33, 33, 1);
+    
+}
+
+p {
+    color: rgba(117, 117, 117, 1)
+}
+li {
+    color: green;
+}
+li {
+    list-style-type: none;
+}
+
+.button-portfolio:hover, .button-portfolio:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+}
+
+.btn-current {
+color: rgba(255, 255, 255, 1);
+background-color: rgba(33, 150, 243, 1);
+}
